@@ -5,10 +5,10 @@ O seu assistente pessoal para o cuidado e a alegria do seu pet.
 Uma experiência "lovable" que conecta tutores e pets através de tecnologia, design e inteligência artificial.
 
 <p>
-<a href="#-sobre-o-projeto">Sobre</a> •
-<a href="#-funcionalidades-em-destaque">Funcionalidades</a> •
-<a href="#-tech-stack-as-ferramentas-por-trás-da-magia">Tecnologias</a> •
-<a href="#-como-executar-o-projeto-localmente">Como Executar</a>
+<a href="#-sobre-o-projeto"><strong>Sobre</strong></a> •
+<a href="#-funcionalidades-em-destaque"><strong>Funcionalidades</strong></a> •
+<a href="#️-tech-stack-as-ferramentas-por-trás-da-magia"><strong>Tecnologias</strong></a> •
+<a href="#-como-executar-o-projeto-localmente"><strong>Como Executar</strong></a>
 </p>
 
 ➡️ Acesse a versão Beta do App aqui!
@@ -53,7 +53,7 @@ Para criar uma interface reativa e componentizada. A gestão de estados com Hook
 
 Vite
 
-Ferramenta de Build e Servidor de Desenvolvimento
+Ferramenta de Build & Servidor de Desenvolvimento
 
 Pela sua velocidade incomparável no desenvolvimento (Hot Module Replacement) e um processo de build otimizado que resulta em um bundle de produção leve e performático.
 
@@ -65,7 +65,7 @@ Possibilitou a prototipagem e a construção rápida de uma UI customizada e con
 
 Google Gemini
 
-Motor de IA
+Motor de Inteligência Artificial
 
 O modelo gemini-2.5-flash foi escolhido por seu excelente equilíbrio entre velocidade, inteligência e acessibilidade via API, sendo o cérebro do nosso assistente virtual.
 
@@ -86,6 +86,8 @@ Vercel
 Plataforma de Deploy
 
 Integrada ao GitHub, permitiu um fluxo de CI/CD (Continuous Integration/Continuous Deployment) automatizado, publicando o app a cada atualização.
+
+<br/>
 
 🚀 Como Executar o Projeto Localmente
 Siga os passos abaixo para ter uma cópia do projeto rodando na sua máquina.
