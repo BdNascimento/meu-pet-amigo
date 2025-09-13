@@ -57,7 +57,7 @@ const ChatModal = ({ isOpen, onClose, petName }) => {
         setIsLoading(true);
 
         try {
-            const apiKey = ""; // Cole sua chave aqui APENAS para testes locais
+            const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // Cole sua chave aqui APENAS para testes locais
             
             if (!apiKey) {
                 setMessages(prev => [...prev, { role: 'assistant', content: 'Ops! A chave de API não foi configurada. Por favor, adicione a chave para conversar comigo. 🐾' }]);

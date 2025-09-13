@@ -313,6 +313,9 @@ const ChatModal = ({ isOpen, onClose, petName }) => {
         try {
             const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
             
+			console.log('Verificando a chave:', apiKey);
+			console.log('Teste de Sanidade:', import.meta.env.VITE_TESTE);
+	
             if (!apiKey) {
                 console.warn('API Key não configurada. Use .env.local para adicionar VITE_GEMINI_API_KEY');
                 setMessages(prev => [...prev, { role: 'assistant', content: 'Ops! A chave de API não foi configurada. Por favor, adicione a chave para conversar comigo. 🐾' }]);
